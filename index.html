@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dr Liban Ismail Abdillahi · Mathématiques appliquées</title>
+  <meta name="description" content="Site personnel du Dr Liban Ismail Abdillahi, maître de conférences en mathématiques appliquées et directeur du LAMO à l'Université de Djibouti : modélisation, analyse de sensibilité, contrôle optimal et intelligence artificielle.">
+  <meta name="theme-color" content="#f5f1e8">
+  <meta property="og:title" content="Dr Liban Ismail Abdillahi · Mathématiques appliquées">
+  <meta property="og:description" content="Modéliser les systèmes complexes pour éclairer la décision : santé publique, climat, intelligence artificielle.">
+  <meta property="og:image" content="assets/img/liban.jpg">
+  <meta property="og:type" content="profile">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+
+  <script>document.documentElement.classList.add('js');</script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@300..600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css">
+  <link rel="stylesheet" href="assets/css/style.css?v=1793695121">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Liban Ismail Abdillahi",
+    "honorificPrefix": "Dr",
+    "jobTitle": "Maître de conférences en mathématiques appliquées, directeur du LAMO",
+    "affiliation": { "@type": "CollegeOrUniversity", "name": "Université de Djibouti" },
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "Université Clermont Auvergne" },
+    "sameAs": ["https://scholar.google.com/citations?user=jnxjCzAAAAAJ&hl=fr"]
+  }
+  </script>
+</head>
+<body>
+
+<!-- Préchargeur -->
+<div class="preloader" id="preloader" aria-hidden="true">
+  <div class="pl-inner">
+    <svg viewBox="0 0 360 140" fill="none">
+      <path class="axis" d="M10 120h340M10 120V10"/>
+      <path class="curve" d="M14 118C60 116 82 20 130 20s52 96 110 98c40 1 70-2 112-2"/>
+    </svg>
+    <div class="pl-name">Liban Ismail Abdillahi</div>
+    <div class="pl-sub">Mathématiques appliquées</div>
+  </div>
+</div>
+<div class="progress" id="progress"></div>
+
+<!-- En-tête -->
+<header class="header" id="header">
+  <div class="wrap">
+    <a href="#profil" class="brand" aria-label="Accueil">
+      <span class="mark">li</span>
+      <span class="name">Liban Ismail Abdillahi<small>Mathématiques appliquées</small></span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Navigation principale"></nav>
+    <button class="menu-btn" id="menuBtn" aria-label="Ouvrir le menu" aria-expanded="false"><span></span><span></span></button>
+  </div>
+</header>
+<div class="drawer" id="drawer"></div>
+
+<main>
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="accueil" data-view="profil">
+  <canvas class="flow" id="flow" aria-hidden="true"></canvas>
+  <span class="float-eq e1 tex" data-tex="\dfrac{dI}{dt}=\beta\dfrac{SI}{N}-\gamma I">dI/dt = βSI/N − γI</span>
+  <span class="float-eq e2 tex" data-tex="\mathcal{R}_0=\dfrac{\beta}{\gamma}">R₀ = β/γ</span>
+  <span class="float-eq e3 tex" data-tex="S_i=\dfrac{\mathrm{Var}(\mathbb{E}[Y\mid X_i])}{\mathrm{Var}(Y)}">Sᵢ = Var(E[Y|Xᵢ]) / Var(Y)</span>
+  <span class="float-eq e4 tex" data-tex="\min_{u}\,J(u)">min J(u)</span>
+
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow" data-in style="--d:.1">Université de Djibouti · LAMO</span>
+      <h1 class="h1" data-in style="--d:.2" aria-label="Liban Ismail Abdillahi">
+        Liban
+        <span class="l2"><em>Ismail</em> Abdillahi</span>
+      </h1>
+      <p class="role" data-in style="--d:.35"><strong>Maître de conférences en mathématiques appliquées</strong> et directeur du Laboratoire d'Analyse, de Modélisation et d'Optimisation.</p>
+      <p class="pitch" data-in style="--d:.45">Je modélise les systèmes complexes, de la dynamique des épidémies aux risques climatiques, pour que les décisions publiques s'appuient sur des chiffres solides et une incertitude assumée.</p>
+      <div class="cta" data-in style="--d:.55">
+        <a href="#recherche" class="btn magnetic">Découvrir mes recherches
+          <svg class="arr" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10h13M11 5l5 5-5 5"/></svg>
+        </a>
+        <a href="#contact" class="btn ghost magnetic">Me contacter</a>
+      </div>
+      <div class="tags" data-in style="--d:.65">
+        <span class="chip">Modélisation</span><span class="chip">Sensibilité globale</span><span class="chip">Contrôle optimal</span><span class="chip">Intelligence artificielle</span>
+      </div>
+    </div>
+
+    <div class="portrait-stage" data-in style="--d:.3">
+      <div class="arch-outline"></div>
+      <div class="arch" data-depth="10"><img src="assets/img/liban.jpg" alt="Portrait du Dr Liban Ismail Abdillahi"></div>
+      <div class="orbit" aria-hidden="true">
+        <svg viewBox="0 0 400 480">
+          <ellipse class="ring" cx="200" cy="250" rx="196" ry="232"/>
+          <g class="spin"><circle cx="396" cy="250" r="5" fill="#b58a3c"/></g>
+          <g class="spin rev" style="transform-origin:200px 250px"><circle cx="200" cy="18" r="3.5" fill="#2f5da8"/></g>
+        </svg>
+      </div>
+      <div class="badge b1" data-depth="-16"><b>Dr</b>Doctorat, Université Clermont Auvergne, 2023</div>
+      <div class="badge b2" data-depth="-24"><b>LAMO</b>Directeur depuis 2024</div>
+    </div>
+  </div>
+  <div class="scroll-cue"><i></i>Défiler</div>
+</section>
+
+<!-- ===================== PROFIL ===================== -->
+<section class="section" id="profil" data-view="profil">
+  <div class="wrap">
+    <div class="profile-grid">
+      <aside class="photo-card info-card" data-reveal="left">
+        <div class="info-photo"><img src="assets/img/liban.jpg" alt="Dr Liban Ismail Abdillahi"></div>
+        <div class="ic-logos"><img src="assets/img/logo_lamo.png" alt="LAMO"><img src="assets/img/logo_ud.png" alt="Université de Djibouti"></div>
+        <dl>
+          <div><dt>Université</dt><dd>Université de Djibouti</dd></div>
+          <div><dt>Centre</dt><dd>Centre de Recherche en Mathématiques et Numérique (CRMN)</dd></div>
+          <div><dt>Laboratoire</dt><dd>LAMO, Laboratoire d'Analyse, de Modélisation et d'Optimisation</dd></div>
+          <div><dt>Doctorat</dt><dd>Université Clermont Auvergne, 2023</dd></div>
+        </dl>
+      </aside>
+      <div>
+        <span class="eyebrow" data-reveal>Profil</span>
+        <h2 class="h2" data-split>Comprendre ce qui fait <em>varier</em> un modèle, pour mieux décider.</h2>
+        <div class="prose" style="margin-top:2.2rem">
+          <p data-reveal>Je suis maître de conférences en mathématiques appliquées à l'Université de Djibouti et directeur du Laboratoire d'Analyse, de Modélisation et d'Optimisation (LAMO). Mes recherches portent sur la modélisation mathématique, les statistiques, la science des données, la recherche opérationnelle et l'optimisation, avec des applications en santé publique, en environnement, en énergie, en logistique et en développement durable.</p>
+          <p data-reveal>Docteur de l'Université Clermont Auvergne depuis 2023, j'ai consacré ma thèse à l'analyse de sensibilité globale de modèles issus du climat, de l'épidémiologie et de la finance. Depuis, je poursuis le même fil : comprendre comment l'incertitude sur les paramètres d'un modèle se propage jusqu'aux décisions qu'il éclaire.</p>
+          <p data-reveal>Je suis aussi le fondateur et le coordinateur académique du master Intelligence Artificielle et Modélisation des Données, je co-encadre des doctorats en cotutelle avec des universités françaises et éthiopiennes, et j'évalue des manuscrits pour des revues internationales de Springer Nature. Ce travail s'inscrit dans une conviction simple : les mathématiques doivent servir des questions scientifiques et sociétales bien réelles.</p>
+        </div>
+        <ul class="roles" data-reveal>
+          <li><span>Poste</span><span>Maître de conférences en mathématiques appliquées, Université de Djibouti</span></li>
+          <li><span>Direction</span><span>Directeur du Laboratoire d'Analyse, de Modélisation et d'Optimisation (LAMO)</span></li>
+          <li><span>Formation</span><span>Fondateur et coordinateur académique du Master IAMD</span></li>
+          <li><span>Expertise</span><span>Évaluateur pour des revues scientifiques internationales à comité de lecture</span></li>
+        </ul>
+        <div class="links-row" data-reveal>
+          <a class="link-u" href="https://scholar.google.com/citations?user=jnxjCzAAAAAJ&hl=fr" target="_blank" rel="noopener">Google Scholar ↗</a>
+          <a class="link-u" href="assets/docs/CV_Liban_Ismail_Abdillahi.pdf" target="_blank" rel="noopener">Télécharger le CV (PDF) ↓</a>
+          <a class="link-u" href="#contact">Écrire à Liban →</a>
+        </div>
+      </div>
+    </div>
+    <div class="stats" id="stats"></div>
+  </div>
+</section>
+
+<!-- ===================== RECHERCHE ===================== -->
+<section class="section dark research" id="recherche" data-view="recherche">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow" data-reveal>Recherche</span>
+      <h2 class="h2" data-split>Cinq axes pour <em>modéliser</em>, quantifier et décider.</h2>
+      <p class="lede" data-reveal>Une même démarche relie mes travaux : construire un modèle, mesurer son incertitude, puis s'en servir pour choisir une action. Explorez chaque axe ci-dessous.</p>
+    </div>
+    <div class="axes" data-reveal>
+      <div class="axis-list" id="axisList" role="tablist" aria-label="Axes de recherche"></div>
+      <div class="axis-panels" id="axisPanels"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PUBLICATIONS ===================== -->
+<section class="section" id="publications" data-view="publications">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow" data-reveal>Publications</span>
+      <h2 class="h2" data-split>Articles <em>scientifiques</em> à comité de lecture.</h2>
+      <p class="lede" data-reveal>Mes travaux publiés et à paraître, avec les collègues qui les ont rendus possibles. Chaque article renvoie à sa référence officielle (DOI).</p>
+    </div>
+    <div class="pub-bar" data-reveal>
+      <div class="filters" id="pubFilters" role="group" aria-label="Filtrer par thème"></div>
+      <label class="search">
+        <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="9" cy="9" r="6"/><path d="m14 14 4 4"/></svg>
+        <input type="search" id="pubSearch" placeholder="Rechercher une publication" aria-label="Rechercher une publication">
+      </label>
+    </div>
+    <div class="pub-count" id="pubCount" aria-live="polite"></div>
+    <div class="pub-list" id="pubList"></div>
+    <div class="pub-foot" data-reveal>
+      <p>La liste complète et les citations sont disponibles sur le profil Google Scholar.</p>
+      <a class="btn ghost magnetic" href="https://scholar.google.com/citations?user=jnxjCzAAAAAJ&hl=fr" target="_blank" rel="noopener">Ouvrir Google Scholar
+        <svg class="arr" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10h13M11 5l5 5-5 5"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== THÈSE ===================== -->
+<section class="section dark" id="these" data-view="these">
+  <div class="wrap">
+    <div class="thesis-card">
+      <div data-reveal="left">
+        <span class="eyebrow">Thèse de doctorat</span>
+        <h2 class="thesis-title" id="thesisTitle"></h2>
+        <p class="thesis-en" id="thesisEn"></p>
+        <dl class="thesis-meta" id="thesisMeta"></dl>
+        <div class="eq-box thesis-eq" data-label="Outil central de la thèse"><span class="tex" id="thesisEq"></span></div>
+        <a class="btn magnetic" id="thesisLink" href="#" target="_blank" rel="noopener" style="margin-top:.6rem">Consulter la thèse
+          <svg class="arr" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10h13M11 5l5 5-5 5"/></svg>
+        </a>
+      </div>
+      <div class="thesis-side" id="pillars"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ENCADREMENT ===================== -->
+<section class="section alt" id="encadrement" data-view="encadrement">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow" data-reveal>Encadrement doctoral</span>
+      <h2 class="h2" data-split>Former la <em>prochaine</em> génération de chercheurs.</h2>
+      <p class="lede" data-reveal>Je co-encadre cinq doctorants du LAMO, dans le cadre de cotutelles avec des universités françaises et éthiopiennes. Leurs sujets vont de l'analyse numérique à l'épidémiologie, en passant par l'intelligence artificielle fiable.</p>
+    </div>
+    <div class="cards" id="students"></div>
+    <p class="note" data-reveal>Direction de thèse indiquée à côté de chaque sujet. Je suis co-encadrant au sein du LAMO, aux côtés du Dr Yahyeh Souleiman pour plusieurs de ces thèses.</p>
+  </div>
+</section>
+
+<!-- ===================== RÉSEAU ===================== -->
+<section class="network" id="reseau" data-view="profil" aria-label="Collaborations">
+  <div class="wrap sec-head">
+    <span class="eyebrow" data-reveal>Réseau</span>
+    <h2 class="h2" data-split>Un réseau de collaborations entre l'<em>Afrique</em> et l'Europe.</h2>
+  </div>
+  <div class="marquee" id="mq1"></div>
+  <div class="marquee rev" id="mq2"></div>
+</section>
+
+<!-- ===================== ENSEIGNEMENT ===================== -->
+<section class="section" id="enseignement" data-view="enseignement">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow" data-reveal>Enseignement</span>
+      <h2 class="h2" data-split>Transmettre une pensée <em>rigoureuse</em> des données.</h2>
+    </div>
+    <div class="teach-grid">
+      <div class="feature" data-reveal="left">
+        <div class="tagline" id="iamdTag"></div>
+        <h3 id="iamdTitle"></h3>
+        <p id="iamdText"></p>
+        <div class="tracks" id="iamdTracks"></div>
+      </div>
+      <div class="teach-side" data-reveal="right">
+        <div class="courses"><h3>Cours dont j'ai la charge</h3><div id="courses"></div></div>
+        <div class="lab-card"><img src="assets/img/logo_lamo.png" alt="Logo du LAMO"><div><h4>Laboratoire LAMO</h4><p id="labText"></p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== EXPERTISE ===================== -->
+<section class="section alt" id="expertise" data-view="expertise">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow" data-reveal>Expertise et missions</span>
+      <h2 class="h2" data-split>Des <em>mathématiques</em> au service des institutions.</h2>
+      <p class="lede" data-reveal>Au-delà du laboratoire, j'accompagne des institutions publiques, universitaires et privées dans leur transformation numérique et dans le pilotage de leur performance par les données.</p>
+    </div>
+    <div class="exp-grid" id="expGrid"></div>
+    <div class="missions">
+      <h3 data-reveal>Projets et missions choisis</h3>
+      <div id="missions"></div>
+    </div>
+    <div class="avail" data-reveal>
+      <p>Disponible pour des missions d'assistance technique internationales en transformation numérique, gouvernance des données, intelligence artificielle et gestion axée sur les résultats.</p>
+      <a href="#contact" class="btn magnetic">Proposer une collaboration</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PARCOURS ===================== -->
+<section class="section" id="parcours" data-view="parcours">
+  <div class="wrap">
+    <div class="sec-head" style="margin-inline:auto;text-align:center">
+      <span class="eyebrow" data-reveal>Parcours</span>
+      <h2 class="h2" data-split>De Djibouti à Clermont-Ferrand, et <em>retour</em>.</h2>
+    </div>
+    <div class="tl" id="timeline"></div>
+  </div>
+</section>
+
+<!-- ===================== CV ===================== -->
+<section class="section" id="cv" data-view="cv">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow" data-reveal>Curriculum vitae</span>
+      <h2 class="h2" data-split>Un parcours entre <em>recherche</em>, enseignement et expertise.</h2>
+      <p class="lede" data-reveal>L'essentiel de mon profil en un coup d'œil, avec le CV complet à consulter ici ou à télécharger.</p>
+      <div class="cta" data-reveal style="display:flex;flex-wrap:wrap;gap:.9rem;margin-top:2rem">
+        <a class="btn magnetic" id="cvDownload" href="#" download>Télécharger le CV (PDF)
+          <svg class="arr" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10 3v10M5 9l5 5 5-5M4 17h12"/></svg>
+        </a>
+        <a class="btn ghost magnetic" id="cvOpen" href="#" target="_blank" rel="noopener">Ouvrir dans un nouvel onglet</a>
+      </div>
+    </div>
+    <div class="cv-grid">
+      <div class="cv-main" data-reveal>
+        <h3 class="cv-h">En bref</h3>
+        <dl class="cv-summary" id="cvSummary"></dl>
+      </div>
+      <div class="cv-side">
+        <div data-reveal><h3 class="cv-h">Compétences</h3><div id="cvSkills"></div></div>
+        <div data-reveal style="margin-top:2.4rem"><h3 class="cv-h">Langues</h3><ul class="langs" id="cvLangs"></ul></div>
+      </div>
+    </div>
+    <div class="pdf-frame" data-reveal>
+      <div class="pdf-bar"><i></i><i></i><i></i><span>CV_Liban_Ismail_Abdillahi.pdf</span></div>
+      <iframe id="cvFrame" title="Curriculum vitae du Dr Liban Ismail Abdillahi" loading="lazy"></iframe>
+      <p class="pdf-note">Si l'aperçu ne s'affiche pas, utilisez le bouton de téléchargement ci-dessus.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CONTACT ===================== -->
+<section class="section dark contact" id="contact" data-view="contact">
+  <div class="wrap contact-grid">
+    <div>
+      <span class="eyebrow" data-reveal>Contact</span>
+      <h2 class="big" data-split>Une question, un projet, une <em>collaboration</em> ?</h2>
+      <p class="lede" data-reveal>Étudiants, chercheurs, institutions et partenaires : je réponds avec plaisir à toute proposition de recherche, d'encadrement ou de mission.</p>
+      <ul class="contact-list" id="contactList" data-reveal></ul>
+      <div class="links-row" data-reveal><a class="link-u" href="assets/docs/CV_Liban_Ismail_Abdillahi.pdf" target="_blank" rel="noopener">Télécharger le CV (PDF) ↓</a></div>
+    </div>
+    <form class="form" id="contactForm" data-reveal="right" autocomplete="on">
+      <div class="field"><input id="fName" name="name" placeholder=" " required><label for="fName">Votre nom</label></div>
+      <div class="field"><input id="fMail" name="email" type="email" placeholder=" " required><label for="fMail">Votre courriel</label></div>
+      <div class="field"><input id="fSubj" name="subject" placeholder=" "><label for="fSubj">Objet</label></div>
+      <div class="field"><textarea id="fMsg" name="message" placeholder=" " required></textarea><label for="fMsg">Votre message</label></div>
+      <button class="btn magnetic" type="submit">Envoyer le message
+        <svg class="arr" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10h13M11 5l5 5-5 5"/></svg>
+      </button>
+      <small>Le bouton ouvre votre application de messagerie avec le message prérempli.</small>
+    </form>
+  </div>
+</section>
+</main>
+<div class="next-bar" id="nextBar"></div>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="logos"><img src="assets/img/logo_lamo.png" alt="LAMO"><img src="assets/img/logo_ud.png" alt="Université de Djibouti"></div>
+    <div>© <span id="year"></span> Dr Liban Ismail Abdillahi · Université de Djibouti</div>
+    <a href="#profil">Retour à l'accueil</a>
+  </div>
+</footer>
+<button class="to-top" id="toTop" aria-label="Retour en haut"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 16V4M4 9l6-6 6 6"/></svg></button>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js"></script>
+<script src="assets/js/data.js?v=1793695121"></script>
+<script src="assets/js/main.js?v=1793695121"></script>
+<script src="assets/js/fx.js?v=1793695121"></script>
+</body>
+</html>
