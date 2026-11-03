@@ -252,7 +252,7 @@
       const y = scrollY, h = document.documentElement.scrollHeight - innerHeight;
       bar.style.transform = `scaleX(${h > 0 ? y / h : 0})`;
       header.classList.toggle('scrolled', y > 24);
-      header.classList.toggle('hide', y > lastY && y > 520 && !document.body.classList.contains('menu-open'));
+      header.classList.toggle('hide', innerWidth > 1080 && y > lastY && y > 520 && !document.body.classList.contains('menu-open'));
       top.classList.toggle('show', y > 900);
       lastY = y;
 
@@ -427,7 +427,7 @@
     let id = (raw || '').replace('#', '');
     if (id === 'accueil' || !VIEW_IDS.includes(id)) id = 'profil';
     document.body.dataset.view = id;
-    $$('[data-view]').forEach(sec => { sec.hidden = sec.dataset.view !== id; });
+    $$('section[data-view]').forEach(sec => { sec.hidden = sec.dataset.view !== id; });
     $$('#nav a').forEach(a => a.classList.toggle('active', a.dataset.id === id));
     const entry = NAV.find(n => n[0] === id);
     document.title = (entry ? entry[1] + ' · ' : '') + 'Dr Liban Ismail Abdillahi';
@@ -435,7 +435,7 @@
     $('#header').classList.remove('hide');
 
     // rejouer les animations d'apparition de la rubrique affichée
-    $$('[data-view]:not([hidden])').forEach(sec => {
+    $$('section[data-view]:not([hidden])').forEach(sec => {
       $$('.in-view', sec).forEach(el => el.classList.remove('in-view', 'done'));
       $$('[data-count]', sec).forEach(el => { el.textContent = '0'; });
       if (io) $$(REVEAL_SEL, sec).forEach(el => io.observe(el));

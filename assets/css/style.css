@@ -96,9 +96,9 @@ section { position: relative; scroll-margin-top: 0; }
 .sec-head .lede { margin-top: 1.4rem; }
 
 .section { padding-top: calc(var(--header-h) + clamp(2.5rem, 5vw, 4.5rem)); padding-bottom: clamp(5rem, 9vw, 7.5rem); }
-[data-view][hidden] { display: none !important; }
+section[data-view][hidden] { display: none !important; }
 main { min-height: 72vh; }
-[data-view]:not([hidden]) { animation: viewIn 0.8s var(--ease-out) both; }
+section[data-view]:not([hidden]) { animation: viewIn 0.8s var(--ease-out) both; }
 @keyframes viewIn { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
 .dark {
   background: var(--paper);
