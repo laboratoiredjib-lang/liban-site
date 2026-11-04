@@ -259,25 +259,27 @@ const SITE = {
 
   /* ----- Curriculum vitae ----- */
   cv: {
-    file: "assets/docs/CV_Liban_Ismail_Abdillahi.pdf",
+    file: "assets/docs/CV_Dr_Liban_Ismail_Abdillahi.pdf",
     summary: [
-      ["Poste actuel", "Maître de conférences en mathématiques appliquées, Université de Djibouti"],
-      ["Direction", "Directeur du Laboratoire d'Analyse, de Modélisation et d'Optimisation (LAMO)"],
-      ["Formation", "Fondateur et coordinateur académique du Master Intelligence Artificielle et Modélisation des Données"],
+      ["Poste actuel", "Maître de conférences en mathématiques appliquées, Université de Djibouti, depuis 2016"],
+      ["Direction", "Directeur du Laboratoire d'Analyse, de Modélisation et d'Optimisation (LAMO), depuis novembre 2024"],
+      ["Mission en cours", "Expert en recherche et modélisation, microdonnées socio-économiques, INSTAD et ministère de l'Économie et des Finances (projet GEDES)"],
+      ["Formation", "Responsable et coordinateur académique du Master Intelligence Artificielle et Modélisation de Données (IAMD)"],
       ["Doctorat", "Mathématiques appliquées, Université Clermont Auvergne, 2023"],
-      ["Domaines", "Transformation numérique, gouvernance des données, intelligence artificielle, gestion axée sur les résultats"],
-      ["Disponibilité", "Missions d'assistance technique internationales"]
+      ["Domaines", "Statistique appliquée, enquêtes et microdonnées, modélisation et prévisions, analyse de sensibilité, qualité des données"],
+      ["Références", "Références professionnelles disponibles sur demande"]
     ],
     skills: [
-      ["Programmation et calcul", ["Python", "R", "SQL", "MATLAB"]],
-      ["Business intelligence", ["Power BI", "Excel avancé", "Tableaux de bord", "Indicateurs de performance"]],
-      ["Méthodes", ["Modélisation mathématique", "Analyse de sensibilité", "Contrôle optimal", "Statistique", "Apprentissage automatique", "Simulation numérique"]]
+      ["Programmation et analyse", ["Python", "R", "SQL", "MATLAB", "Excel"]],
+      ["Visualisation et reporting", ["Power BI", "Tableaux de bord", "Indicateurs", "Rapports analytiques"]],
+      ["Méthodes", ["Statistique appliquée", "Modélisation mathématique et statistique", "Prévision", "Simulation de Monte-Carlo", "Hypercube latin (LHS)", "Analyse globale de sensibilité", "Quantification de l'incertitude"]],
+      ["Qualité et gouvernance des données", ["Validation", "Nettoyage", "Rapprochement", "Documentation des flux de travail"]]
     ],
     languages: [
-      { name: "Somali", level: "Langue maternelle", dots: 5 },
-      { name: "Français", level: "Courant professionnel", dots: 4 },
-      { name: "Anglais", level: "Courant professionnel", dots: 4 },
-      { name: "Arabe", level: "Professionnel", dots: 3 }
+      { name: "Somali", level: "C2 en lecture, à l'oral et à l'écrit", dots: 5 },
+      { name: "Français", level: "C2 en lecture, à l'oral et à l'écrit", dots: 5 },
+      { name: "Anglais", level: "C2 en lecture et à l'écrit, C1 à l'oral", dots: 5 },
+      { name: "Arabe", level: "C2 en lecture, C1 à l'oral et à l'écrit", dots: 4 }
     ]
   }
 };

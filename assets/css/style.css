@@ -983,3 +983,4 @@ body::after {
 .foot-bottom { display: flex !important; flex-wrap: wrap; justify-content: space-between; gap: 0.8rem 2rem; margin-top: clamp(2.4rem, 5vw, 3.6rem); padding-top: 1.3rem; border-top: 1px solid var(--line-dark); position: relative; z-index: 1; font-size: 0.8rem; }
 @media (max-width: 900px) { .foot-grid { grid-template-columns: 1fr; } .foot-role { max-width: none; } }
 @media (prefers-reduced-motion: reduce) { .sec-num { opacity: 1 !important; transform: none !important; } }
+@media (max-width: 560px) { .hero .role { font-size: 1.02rem; word-spacing: -0.02em; } }
