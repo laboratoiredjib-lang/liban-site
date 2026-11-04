@@ -200,9 +200,9 @@ const SITE = {
 
   /* ----- Enseignement ----- */
   iamd: {
-    tagline: "Fondateur et coordinateur académique, depuis 2025",
+    tagline: "Responsable et coordinateur académique, de septembre 2025 à juillet 2026",
     title: "Master Intelligence Artificielle et Modélisation des Données",
-    text: "J'ai conçu et je coordonne le premier master de Djibouti consacré à l'intelligence artificielle et à la modélisation des données. Il associe mathématiques, science des données, aide à la décision et technologies numériques, avec des universités partenaires en France et en Turquie. Il forme les premières promotions de spécialistes du numérique du pays.",
+    text: "J'ai coordonné la conception et la mise en œuvre du premier master de Djibouti consacré à l'intelligence artificielle et à la modélisation des données. Il associe mathématiques, science des données, aide à la décision et technologies numériques, avec des universités partenaires en France et en Turquie. Il forme les premières promotions de spécialistes du numérique du pays.",
     tracks: [
       ["Parcours 1", "Modélisation mathématique et optimisation"],
       ["Parcours 2", "Science des données et intelligence décisionnelle"]
@@ -228,24 +228,26 @@ const SITE = {
     { icon: "people", title: "Renforcement des capacités", text: "Formation, transfert de connaissances et encadrement pour installer durablement des compétences dans les institutions." }
   ],
   missions: [
-    { when: "Depuis 2025", title: "Co-infection tuberculose et VIH à Djibouti", text: "Coordination scientifique d'un projet de modélisation de la dynamique de transmission et des stratégies optimales de contrôle.", who: "Agence Universitaire de la Francophonie, environ 29 500 USD" },
-    { when: "Avril 2024 à mars 2025", title: "Optimisation d'entrepôt et prévision d'occupation", text: "Deux missions de conseil : cadres d'indicateurs pour la gestion des stocks, puis modèles prédictifs de l'occupation du terminal pour anticiper la congestion.", who: "SGTD, Doraleh Container Terminal" },
+    { when: "Depuis septembre 2026", title: "Microdonnées socio-économiques et modélisation prédictive", text: "Analyse comparative des enquêtes EDAM2, EDAM3 et EDAM4, conception et validation de modèles prédictifs, projections à dix ans et contextualisation d'un modèle d'équilibre général calculable pour l'analyse de politiques publiques.", who: "INSTAD et ministère de l'Économie et des Finances, projet GEDES" },
+    { when: "Mars à juin 2026", title: "État de préparation de Djibouti à l'intelligence artificielle", text: "Membre du comité de pilotage : revue et prévalidation des constats du rapport d'évaluation, assurance qualité des informations et recommandations.", who: "Ministère délégué chargé de l'Économie numérique et de l'Innovation, UNESCO" },
+    { when: "Janvier 2026 à décembre 2027", title: "Co-infection tuberculose et VIH à Djibouti", text: "Coordination scientifique et suivi technique d'un projet de modélisation de la cascade de prise en charge de la tuberculose et du VIH, avec analyse des données, livrables et transfert de connaissances.", who: "Agence Universitaire de la Francophonie, environ 29 500 USD" },
+    { when: "Avril 2024 à mars 2025", title: "Analyse de données, qualité et prévisions", text: "Nettoyage, validation et rapprochement des données opérationnelles, évaluation de leur qualité, suivi des indicateurs de performance (occupation à quai, parc, consommation des RTG) et prévisions à 30 jours.", who: "SGTD, Doraleh Container Terminal" },
     { when: "2022 à 2024", title: "Projet MoMathEpiDji", text: "Coordination d'un projet de modélisation mathématique des maladies infectieuses, avec les laboratoires de mathématiques de Clermont Auvergne et de Besançon.", who: "ACE-CEALT, environ 30 000 USD" },
-    { when: "Septembre 2023", title: "Analyse de données et modélisation", text: "Expertise statistique pour un projet de développement : traitement de données, méthodes analytiques et appui à la planification.", who: "INSTAD, financement Banque mondiale" },
+    { when: "Août à septembre 2023", title: "Formation en statistique et analyse des données", text: "Formation professionnelle de dix jours destinée à des cadres de la statistique sectorielle : méthodes statistiques, analyse des données, production et usage de l'information statistique.", who: "INSTAD" },
     { when: "Avril à août 2020", title: "Riposte nationale à la COVID-19", text: "Modèles épidémiologiques et scénarios d'intervention pour éclairer les décisions du ministère de la Santé.", who: "ACE-CEALT, ministère de la Santé" }
   ],
 
   /* ----- Parcours ----- */
   timeline: [
     { y: "2013", sub: "à 2014", t: "Licence de mathématiques fondamentales", d: "Université de Djibouti." },
-    { y: "2014", sub: "à 2015", t: "Master de mathématiques appliquées", d: "Université Joseph Fourier, aujourd'hui Université Grenoble Alpes." },
+    { y: "2014", sub: "à 2015", t: "Maîtrise de mathématiques fondamentales", d: "Université Joseph Fourier, aujourd'hui Université Grenoble Alpes." },
     { y: "2015", sub: "à 2016", t: "Master de mathématiques appliquées", d: "Université Clermont Auvergne." },
+    { y: "2016", sub: "novembre, à aujourd'hui", t: "Maître de conférences en mathématiques appliquées", d: "Université de Djibouti : recherche quantitative, enseignement et encadrement doctoral.", major: true },
     { y: "2019", sub: "à 2023", t: "Doctorat en mathématiques appliquées", d: "Analyse de sensibilité et modélisation de systèmes complexes, Université Clermont Auvergne. Soutenance le 28 juin 2023.", major: true },
     { y: "2020", sub: "avril à août", t: "Expert en modélisation de la COVID-19", d: "Modèles épidémiologiques pour le ministère de la Santé, avec l'ACE-CEALT." },
     { y: "2022", sub: "à 2024", t: "Coordinateur du projet MoMathEpiDji", d: "Collaboration scientifique entre Djibouti et la France sur la modélisation des maladies infectieuses." },
-    { y: "2023", sub: "", t: "Maître de conférences en mathématiques appliquées", d: "Université de Djibouti : recherche, enseignement et encadrement doctoral.", major: true },
-    { y: "2024", sub: "", t: "Directeur du LAMO", d: "Direction stratégique du Laboratoire d'Analyse, de Modélisation et d'Optimisation, de ses équipes, de ses doctorants et de ses partenariats internationaux.", major: true },
-    { y: "2025", sub: "", t: "Fondation du Master IAMD", d: "Premier master d'intelligence artificielle et de modélisation des données de Djibouti. Début de l'expertise scientifique pour des revues Springer Nature." },
+    { y: "2024", sub: "novembre", t: "Directeur du LAMO", d: "Direction stratégique du Laboratoire d'Analyse, de Modélisation et d'Optimisation, de ses équipes, de ses doctorants et de ses partenariats internationaux.", major: true },
+    { y: "2025", sub: "septembre, à juillet 2026", t: "Coordination du Master IAMD", d: "Responsable et coordinateur académique du premier master d'intelligence artificielle et de modélisation des données de Djibouti : conception, mise en œuvre, équipes pédagogiques et évaluation. Début de l'expertise scientifique pour des revues Springer Nature." },
     { y: "2026", sub: "", t: "Nouvelles cotutelles de thèse", d: "Co-encadrement de doctorats avec Clermont Auvergne et Adama Science and Technology University, sur l'intelligence artificielle fiable et l'épidémiologie." }
   ],
 
