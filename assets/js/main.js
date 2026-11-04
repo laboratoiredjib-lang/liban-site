@@ -23,6 +23,7 @@
   /* ------------------------------------------------------------------ */
   function renderNav() {
     $('#nav').innerHTML = NAV.map(([id, l], i) => `<a href="#${id}" data-id="${id}" style="--k:${i}">${l}</a>`).join('');
+    $('#footNav').innerHTML = NAV.map(([id, l]) => `<a href="#${id}">${l}</a>`).join('');
     $('#drawer').innerHTML = NAV.map(([id, l], i) => `<a href="#${id}" style="--i:${i}"><small>${String(i + 1).padStart(2, '0')}</small>${l}</a>`).join('');
   }
 
@@ -500,6 +501,15 @@
   function init() {
     renderNav(); renderStats(); renderAxes(); renderPubs(); renderThesis(); renderStudents();
     renderNetwork(); renderTeaching(); renderExpertise(); renderTimeline(); renderContact(); renderCV(); renderMath();
+    // grands numéros de rubrique en filigrane
+    $$('section[data-view]').forEach(sec => {
+      const n = NAV.findIndex(x => x[0] === sec.id);
+      const head = $('.sec-head', sec);
+      if (n < 1 || !head) return;
+      const s = document.createElement('span');
+      s.className = 'sec-num'; s.setAttribute('aria-hidden', 'true'); s.textContent = String(n + 1).padStart(2, '0');
+      head.appendChild(s);
+    });
     $$('[data-split]').forEach(splitHeading);
     prepareReveal(); setupHeader(); setupAxes(); setupPubs(); setupReveal();
     setupRouter(); setupHeroParallax(); setupMagnetic(); setupTilt(); setupFlow(); setupForm();
